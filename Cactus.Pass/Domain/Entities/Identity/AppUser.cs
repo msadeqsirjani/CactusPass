@@ -9,6 +9,6 @@ namespace Domain.Entities.Identity
 
         public virtual ICollection<Password> Passwords { get; set; }
 
-        public virtual ICollection<Note> Messages { get; set; }
+        public virtual ICollection<Note> Notes { get; set; }
     }
 }

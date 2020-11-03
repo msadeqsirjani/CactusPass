@@ -14,16 +14,17 @@ namespace Domain.Interfaces
 
         Task<TEntity> SelectAsync(string id);
 
-        Task<TEntity> AddAsync(TEntity entity);
+        Task<TEntity> AddAsync(TEntity entity, bool saveAutomatically = true);
 
-        Task UpdateAsync(TEntity entity);
+        Task UpdateAsync(TEntity entity, bool saveAutomatically = true);
 
-        Task DeleteAsync(TEntity entity);
+        Task DeleteAsync(TEntity entity, bool saveAutomatically = true);
 
-        Task DeleteAsync(string id);
+        Task DeleteAsync(string id, bool saveAutomatically = true);
 
         Task<bool> ExistsAsync(Expression<Func<TEntity, bool>> predicate);
 
         Task<bool> ExistsAsync(string id);
+        Task SaveChangesAsync();
     }
 }

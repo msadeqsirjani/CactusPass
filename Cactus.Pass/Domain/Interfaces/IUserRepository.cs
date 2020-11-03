@@ -7,7 +7,8 @@ namespace Domain.Interfaces
 {
     public interface IUserRepository
     {
-        Task<AppUser> AddAsync(AppUser user);
+        Task<AppUser> AddAsync(AppUser user, bool saveAutomatically = true);
+        Task SaveChangesAsync();
 
         Task<AppUser> FirstOrDefaultAsync(Expression<Func<AppUser, bool>> expression);
     }
