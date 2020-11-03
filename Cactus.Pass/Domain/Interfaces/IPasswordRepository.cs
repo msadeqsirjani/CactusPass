@@ -5,6 +5,6 @@ namespace Domain.Interfaces
 {
     public interface IPasswordRepository : IAsyncRepository<Password>
     {
-        IQueryable<Password> SelectByUser(string userId);
+        IQueryable<Password> SelectUserPasswords(string userId);
     }
 }

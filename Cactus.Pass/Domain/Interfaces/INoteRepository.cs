@@ -5,6 +5,6 @@ namespace Domain.Interfaces
 {
     public interface INoteRepository : IAsyncRepository<Note>
     {
-        IQueryable<Note> SelectByUserAsync(string userId);
+        IQueryable<Note> SelectUserNotesAsync(string userId);
     }
 }

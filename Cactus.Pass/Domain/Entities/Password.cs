@@ -7,7 +7,7 @@ namespace Domain.Entities
     {
         public string Username { get; set; }
         public string EmailAddress { get; set; }
-        public string HashPassword { get; set; }
+        public string HashedPassword { get; set; }
         public string UsedIn { get; set; }
         public string UserId { get; set; }
 

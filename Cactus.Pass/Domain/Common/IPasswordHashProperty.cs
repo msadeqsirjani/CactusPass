@@ -2,6 +2,6 @@
 {
     public interface IPasswordHashProperty
     {
-        string HashPassword { get; set; }
+        string HashedPassword { get; set; }
     }
 }
