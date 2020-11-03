@@ -3,21 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{B4ED708F-B39E-4A13-AB32-AA9D93996FD2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cactus.Pass.WebApi", "Cactus.Pass.WebApi", "{B4ED708F-B39E-4A13-AB32-AA9D93996FD2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Data", "Infrastructure.Data", "{66861906-AE6F-4DD0-88F7-EB2F9DDF8405}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cactus.Pass.Infra.Data", "Cactus.Pass.Infra.Data", "{66861906-AE6F-4DD0-88F7-EB2F9DDF8405}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{359D2283-59E7-4713-B42B-02A18415EA5A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cactus.Pass.Domain", "Cactus.Pass.Domain", "{359D2283-59E7-4713-B42B-02A18415EA5A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9785251B-2DC5-491A-867C-8D2ED805D4DC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cactus.Pass.Application", "Cactus.Pass.Application", "{9785251B-2DC5-491A-867C-8D2ED805D4DC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.IoC", "Infrastructure.IoC", "{1C76C9F9-2D30-4FDC-A23E-B1F02E7301F4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cactus.Pass.Infra.IoC", "Cactus.Pass.Infra.IoC", "{1C76C9F9-2D30-4FDC-A23E-B1F02E7301F4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{95901B2A-A189-422F-A7DB-92DC66FC1A4A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95901B2A-A189-422F-A7DB-92DC66FC1A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{DAE5BB39-1B3F-4835-A3CF-1ED82E373C26}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE5BB39-1B3F-4835-A3CF-1ED82E373C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE5BB39-1B3F-4835-A3CF-1ED82E373C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE5BB39-1B3F-4835-A3CF-1ED82E373C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE5BB39-1B3F-4835-A3CF-1ED82E373C26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4ED708F-B39E-4A13-AB32-AA9D93996FD2} = {95901B2A-A189-422F-A7DB-92DC66FC1A4A}
+		{66861906-AE6F-4DD0-88F7-EB2F9DDF8405} = {95901B2A-A189-422F-A7DB-92DC66FC1A4A}
+		{359D2283-59E7-4713-B42B-02A18415EA5A} = {95901B2A-A189-422F-A7DB-92DC66FC1A4A}
+		{9785251B-2DC5-491A-867C-8D2ED805D4DC} = {95901B2A-A189-422F-A7DB-92DC66FC1A4A}
+		{1C76C9F9-2D30-4FDC-A23E-B1F02E7301F4} = {95901B2A-A189-422F-A7DB-92DC66FC1A4A}
+		{DAE5BB39-1B3F-4835-A3CF-1ED82E373C26} = {359D2283-59E7-4713-B42B-02A18415EA5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95762D12-13F3-4717-B2BD-1FFE088E2AF5}
