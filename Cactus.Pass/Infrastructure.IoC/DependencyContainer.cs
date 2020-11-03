@@ -1,6 +1,7 @@
 ﻿using Application.Interfaces;
 using Application.Services;
 using Domain.Interfaces;
+using Infrastructure.Data;
 using Infrastructure.Data.Persistence;
 using Infrastructure.Data.Repositories;
 using Infrastructure.IoC.Extensions;

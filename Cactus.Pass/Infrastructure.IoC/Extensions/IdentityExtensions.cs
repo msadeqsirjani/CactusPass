@@ -1,9 +1,10 @@
 ﻿using Domain.Entities.Identity;
-using Infrastructure.Data.Persistence;
+using Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using System;
+using Infrastructure.Data.Persistence;
 
 namespace Infrastructure.IoC.Extensions
 {
