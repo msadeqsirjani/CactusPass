@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{359D22
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{9785251B-2DC5-491A-867C-8D2ED805D4DC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{1C76C9F9-2D30-4FDC-A23E-B1F02E7301F4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.IoC", "Infrastructure.IoC", "{1C76C9F9-2D30-4FDC-A23E-B1F02E7301F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{95901B2A-A189-422F-A7DB-92DC66FC1A4A}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
