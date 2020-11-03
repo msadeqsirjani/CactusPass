@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Infrastructure.IoC\Infrastructure.IoC.csproj" />
   </ItemGroup>
 
 
